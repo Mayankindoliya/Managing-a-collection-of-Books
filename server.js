@@ -8,6 +8,9 @@ const app = express();
 
 app.use(express.json());
 
+// Authentication middleware
+
+
 app.use(router);
 
 // Error handler Middleware: 
